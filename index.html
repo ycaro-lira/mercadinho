@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simulador de caixa</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<section>
+
+    <div id="mercadoForm">
+        <div>
+          <label for="nomeProduto">Nome do produto: </label>
+          <input type="text" id="nomeProduto" />
+        </div>
+    
+        <div>
+          <label for="valorProduto">Valor do produto: </label>
+          <input type="number" id="valorProduto" />
+        </div>
+    
+        <div>
+          <label for="quantidade">Quantidade: </label>
+          <input type="number" id="quantidade" />
+        </div>
+    
+        <button type="button" id="btn1" onclick="adicionarProduto()">Adicionar</button>
+      </div>
+    <hr>
+    
+ <div class="cupom">
+      <h2>Cupom do Cliente</h2>
+      <ul id="listaProdutos"></ul>
+      <p>Total da compra: R$ <span id="total">0.00</span></p>
+</div>
+
+<hr>
+
+      <div>
+        <form id="pagamentoForm">
+         <label for="valorPagamento">Valor pago: </label>
+         <input type="number" id="valorPagamento" />
+         <button type="button" onclick="calcularTroco()">Finalizar pedido</button>
+         </div>
+    
+      <div id="cupomFinal" style="display: none;">
+        <h2>Cupom Final</h2>
+        <pre id="cupomResultado"></pre>
+      </div>
+
+      <p id="trocoInfo"></p>
+
+</section>
+
+<script src="index.js"></script>  
+</body>
+</html>
