@@ -1,79 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
-    height: 100vh;
-    background-color:rgb(62, 62, 62);
-  }
-
-  section{
-border: 5px solid white;
-background-color: rgb(101, 149, 191);
-height: 90vh;
-margin-top: 2%;
-margin-left: 20%;
-margin-right: 20%;
-
-  }
-
-  div{
-    padding-top: 5px;
-  }
-
-  #mercadoForm{
-font-size:25px;
-margin-left: 20%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+  height: 100vh;
+  background-color: rgb(62, 62, 62);
+  background-image: url('img/logo.png'); /* Substitua pelo caminho da sua imagem */
+ 
+  background-repeat: no-repeat; /* Evita repetição da imagem */
 }
 
-#nomeProduto{
+section {
+  border: 5px solid white;
+  background-color: rgb(101, 149, 191);
 
-width:200px;
-height: 25px;
-
+  margin-top: 8%;
+  margin-left: 10%; /* Reduzi a margem esquerda e direita */
+  margin-right: 10%;
+  padding: 10px; /* Adicionei algum preenchimento para dar espaçamento interno */
 }
 
-#valorProduto{
-width:200px;
-height: 25px;
-margin-left:10px;
-
+#mercadoForm {
+  font-size: 1.5em; /* Utilizando unidade relativa */
+  margin-left: 5%; /* Reduzi a margem esquerda */
 }
 
-#quantidade{
-
-    width:200px;
-    height: 25px;
-    margin-left:63px;
+/* Adicionei um estilo para os campos de entrada para torná-los mais responsivos */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  height: 30px; /* Ajuste a altura conforme necessário */
 }
 
-button{
-
+button {
+  width: 22%; /* Ocupa a largura total disponível */
 }
-  #pagamentoForm{
 
-    padding-top: 5px;
-    text-align: center;
- }
-
- h2{
+#pagamentoForm {
+  padding-top: 5px;
   text-align: center;
- }
+}
 
- #btn1{
-margin-left: 40%;
-
- }
-
- .cupom{
-
+h2 {
   text-align: center;
- }
+}
 
- #cupomFinal{
+#btn1 {
+  margin-left: 0; /* Removi a margem esquerda */
+}
+
+.cupom {
   text-align: center;
- }
+}
 
- #trocoInfo{
+#cupomFinal {
+  text-align: center;
+}
+
+#trocoInfo {
   color: red;
- }
+}
