@@ -5,9 +5,9 @@ body {
   border: 2px solid black;
   height: 100vh;
   background-color: rgb(62, 62, 62);
-  background-image: url('img/logo.png'); /* Substitua pelo caminho da sua imagem */
+  background-image: url('img/logo.png'); 
  
-  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-repeat: no-repeat; 
 }
 
 section {
@@ -15,14 +15,14 @@ section {
   background-color: rgb(101, 149, 191);
 
   margin-top: 8%;
-  margin-left: 10%; /* Reduzi a margem esquerda e direita */
+  margin-left: 10%; 
   margin-right: 10%;
-  padding: 10px; /* Adicionei algum preenchimento para dar espaçamento interno */
+  padding: 10px; 
 }
 
 #mercadoForm {
-  font-size: 1.5em; /* Utilizando unidade relativa */
-  margin-left: 5%; /* Reduzi a margem esquerda */
+  font-size: 1.5em; 
+  margin-left: 5%; /
 }
 
 /* Adicionei um estilo para os campos de entrada para torná-los mais responsivos */
@@ -31,11 +31,11 @@ input[type="number"] {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 10px;
-  height: 30px; /* Ajuste a altura conforme necessário */
+  height: 30px; 
 }
 
 button {
-  width: 22%; /* Ocupa a largura total disponível */
+  width: 22%; 
 }
 
 #pagamentoForm {
@@ -48,7 +48,7 @@ h2 {
 }
 
 #btn1 {
-  margin-left: 0; /* Removi a margem esquerda */
+  margin-left: 0; 
 }
 
 .cupom {
